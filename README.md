@@ -6,7 +6,7 @@ Iterate through a set of integers and print "Fizz" if equally divisible by 3, "B
 
 ## Instructions
 When prompted, type in the total number of integer iterations desired and hit enter.
-> Note: If the number is five digits long or more (i.e., a number greater than 9999) then a confirmation will be requested. Type "yes" and hit enter to continue.
+> Note: If the number has more than three digits (i.e., any number greater than 999) then a confirmation will be requested. Type "yes" and hit enter to continue.
 
 The program should then iterate through each integer from 1 to the number selected, inclusive.
 > Note: More options will be added soon for starting from a selected integer.
