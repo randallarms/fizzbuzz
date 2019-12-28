@@ -6,7 +6,7 @@ print("Up to which number would you like to iterate? ")
 i = input("> ");
 
 if int(i) > 999:
-    print("This set has a thousand or more iterations and may take a very long time to finish. Type yes to confirm: ")
+    print("Set is greater than 1000 and may take a long time to finish. Type yes to confirm: ")
     confirm = input("> ");
     if confirm != "yes":
 	    print("Iteration canceled. ")
