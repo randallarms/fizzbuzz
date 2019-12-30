@@ -9,10 +9,10 @@ Iterate through a set of integers and print "Fizz" if equally divisible by 3, "B
 When prompted, type in the total number of integer iterations desired and hit enter.
 > Note: If the number has more than a thousand then a confirmation will be requested. Type "yes" and hit enter to continue.
 
-You will then be prompted first for the "Fizz" divisor and then for the "Buzz" divisor. To get the traditional results, enter "3" and then "5"; however, any positive integer can be used in their place.
+You will then be prompted first for the "Fizz" divisor and then for the "Buzz" divisor. To get the traditional results, enter "3" and then "5"; however, any positive integer may be used in their place.
 
 The program should then iterate through each integer from 1 to the number selected, inclusive.
-> Note: More options will be added soon for starting from a selected integer.
+> Note: More options will be added soon, such as for starting from a selected integer.
 
 ## About
 This project is a personal spin on the popular programming exercise based on the children's game of the same name. For now, the program runs in Python, but alternatives may be added in the future.
