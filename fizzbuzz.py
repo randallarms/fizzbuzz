@@ -45,7 +45,7 @@ b_int = int_check(b)
 
 # Iterate through the integers and print results
 print("\nIterating through each integer up to " + i + ": ")
-for num in range(1, int(i)+1):
+for num in range(1, i_int+1):
 	fizz = (num % f_int == 0)
 	buzz = (num % b_int == 0)
 	print('FizzBuzz' if (fizz & buzz) else 'Fizz' if fizz else 'Buzz' if buzz else num)
