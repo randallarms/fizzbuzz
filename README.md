@@ -8,7 +8,7 @@ Iterate through a set of integers and print "Fizz" if equally divisible by 3, "B
 
 ## Instructions
 When prompted, type in the total number of integer iterations desired and hit enter.
-> Note: If the number has more than a thousand then a confirmation will be requested. Type "yes" and hit enter to continue.
+> Note: If the number is greater than a thousand then a confirmation will be requested. Type "yes" and hit enter to continue.
 
 You will then be prompted first for the "Fizz" divisor and then for the "Buzz" divisor. To get the traditional results, enter "3" and then "5"; however, any positive integer may be used in their place.
 
