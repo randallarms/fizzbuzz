@@ -1,5 +1,5 @@
 #=====================================#
-#             FizzBuzz                #
+#         FizzBuzz (Python)           #
 #          by Randall Arms            #
 #  @ github.com/randallarms/fizzbuzz  #
 #=====================================#

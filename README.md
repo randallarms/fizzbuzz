@@ -1,5 +1,5 @@
 # fizzbuzz
-Written in *Python*
+Written in *Python* & *C#*
 
 by *Randall Arms* @ randallarms.com
 
@@ -16,6 +16,6 @@ The program should then iterate through each integer from 1 to the number select
 > Note: More options will be added soon, such as for starting from a selected integer.
 
 ## About
-This project is a personal spin on the popular programming exercise based on the children's game of the same name. For now, the program runs in Python, but alternatives may be added in the future.
+This project is a personal spin on the popular programming exercise based on the children's game of the same name. For now, the program is written in Python (fizzbuzz.py) & C# (FizzBuzz.cs), and more alternatives may be added in the future.
 
-A minimal version of the code can be found in the file "fizzbuzz-short.py", which generates the traditional FizzBuzz set from 1 to 100 in as few code characters as possible. Currently, the fizzbuzz-short.py contains fewer than 150 characters.
+A minimal version of the Python code can be found in the file "fizzbuzz-short.py", which generates the traditional FizzBuzz set from 1 to 100 in as few code characters as possible. Currently, the fizzbuzz-short.py contains fewer than 150 characters.
