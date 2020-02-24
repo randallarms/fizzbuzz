@@ -16,19 +16,18 @@ namespace FizzBuzz
 		static int int_check(string n)
 		{
 			int i;
-			if (int.TryParse(n, out i) && i >= 0)
+			if (int.TryParse(n, out i) && i > 0)
 			{
 				return i;
 			}
 			else
 			{
 				Console.WriteLine("\nInput number must be a positive integer. ");
-				Environment.Exit(1);
 			}
 			return -1;
 		}
 		
-		static void Main(string[] args)
+		static void Main()
 		{
 
 			// Opening text
@@ -41,6 +40,9 @@ namespace FizzBuzz
 			string i = Console.ReadLine();
 
 			int i_int = int_check(i);
+			if (i_int < 0) {
+				return;
+			}
 
 			// Check for large numbers and confirm
 			if (i_int > 1000)
@@ -50,7 +52,7 @@ namespace FizzBuzz
 				if (confirm != "yes")
 				{
 					Console.WriteLine("\nIteration canceled. ");
-					Environment.Exit(1);
+					return;
 				}
 			}
 
@@ -59,16 +61,22 @@ namespace FizzBuzz
 			string f = Console.ReadLine();
 
 			int f_int = int_check(f);
+			if (f_int < 0) {
+				return;
+			}
 
 			// Input "Buzz" divisor
 			Console.WriteLine("\nWhich number would you like to check divisibility by for printing 'Buzz'? \n> ");
 			string b = Console.ReadLine();
 
 			int b_int = int_check(b);
+			if (b_int < 0) {
+				return;
+			}
 
 			// Iterate through the integers and print results
 			Console.WriteLine("\nIterating through each integer up to " + i + ": ");
-			foreach (int num in Enumerable.Range(1, i_int+1))
+			foreach (int num in Enumerable.Range(1, i_int))
 			{
 				bool fizz = (num % f_int == 0);
 				bool buzz = (num % b_int == 0);

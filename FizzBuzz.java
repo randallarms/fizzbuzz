@@ -21,7 +21,7 @@ public class FizzBuzz {
 			System.exit(0);
 		}
 		
-		if (c_int >= 0) {
+		if (c_int > 0) {
 			return c_int;
 		} else {
 			System.out.println("\nInput number must be a positive integer. ");
